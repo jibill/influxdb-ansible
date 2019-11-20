@@ -1,0 +1,20 @@
+[meta]
+  dir = "{{ influxdb_meta }}"
+[data]
+  dir = "{{ influxdb_data }}"
+  wal-dir = "{{ influxdb_wal }}"
+  series-id-set-cache-size = 100
+[coordinator]
+[retention]
+[shard-precreation]
+[monitor]
+[http]
+#  auth-enabled = true
+[logging]
+[subscriber]
+[[graphite]]
+[[collectd]]
+[[opentsdb]]
+[[udp]]
+[continuous_queries]
+[tls]

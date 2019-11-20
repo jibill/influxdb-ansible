@@ -1,0 +1,3 @@
+- hosts: influxdb
+  roles:
+    - influxdb  

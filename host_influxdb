@@ -1,0 +1,7 @@
+[influxdb]
+10.10.108.225
+
+[all:vars]
+influxdb_meta="/data/apm/influxdb/meta"
+influxdb_data="/data/apm/influxdb/data"
+influxdb_wal="/data/apm/influxdb/wal"
